@@ -20,4 +20,4 @@ install: modules
 
 clean:
 	rm -rf *~ .tmp_versions modules.order Module.symvers
-	find . -type f -name *~ -o -name *.o -o -name *.ko -o -name *.cmd -o -name *.mod.c *.mod |  xargs rm -rf
+	find . -type f -name *~ -o -name *.o -o -name *.ko -o -name *.cmd -o -name *.mod.c -o -name *.mod |  xargs rm -rf
